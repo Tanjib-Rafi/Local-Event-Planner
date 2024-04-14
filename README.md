@@ -56,7 +56,7 @@ Replace apiKey with your actual API key.
 Change Directory
 
 ```bash
-cd 
+cd local_event_planner
 ```
 
 Install the requirements:
