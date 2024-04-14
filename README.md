@@ -51,7 +51,7 @@ Replace apiKey with your actual API key.
 
 
 
-## Back-End Setup instructions (Django)
+## Back-End Setup instructions (Django Rest Framework)
 
 Change Directory
 
