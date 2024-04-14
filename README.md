@@ -1,5 +1,5 @@
 
-## Front-End Setup instructions
+## Front-End Setup instructions (React Js)
 
 First, clone the repository to your local machine:
 
@@ -34,9 +34,9 @@ https://us1.locationiq.com/v1/autocomplete.php?key=${apiKey}&q=${searchQuery}&li
 Replace apiKey with your actual API key.
 
 
-## Back-End Setup instructions
+## Back-End Setup instructions (Django)
 
-First, clone the repository to your local machine:
+Change Directory
 
 ```bash
 cd 
