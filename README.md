@@ -1,3 +1,19 @@
+## Key Features
+
+- **Token-based Authentication**: Utilizes JWT (JSON Web Tokens) for secure authentication, with user tokens stored locally in the browser's localStorage
+
+- **Restricted Access**: Only authenticated users are permitted to create events and view the Dahsboard
+
+- **Redux State Management**: Implements Redux for efficient state management
+
+- **Search/Filter *: Supports search/filter based on event name, location and time range 
+
+- **Django REST Framework Backend**: Django REST Framework on the backend to provide API endpoints
+
+- **Satellite and Normal Map Views**: Offers users the option to view event locations in both satellite and normal map views with fullscreen view
+
+- **Nearby Location Search**: Enables users to search for events based on their proximity to their current location, enhancing convenience and relevance
+
 
 ## Front-End Setup instructions (React Js)
 
@@ -32,6 +48,7 @@ For Location Autocomplete Suggestion I used LocationIq api:
 https://us1.locationiq.com/v1/autocomplete.php?key=${apiKey}&q=${searchQuery}&limit=5&format=json
 ```
 Replace apiKey with your actual API key.
+
 
 
 ## Back-End Setup instructions (Django)
