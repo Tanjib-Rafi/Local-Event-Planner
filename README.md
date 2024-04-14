@@ -25,6 +25,14 @@ Finally, run the development server:
 npm run start
 ```
 
+Note:
+
+For Location Autocomplete Suggestion I used LocationIq api:
+```bash
+https://us1.locationiq.com/v1/autocomplete.php?key=${apiKey}&q=${searchQuery}&limit=5&format=json
+```
+Replace apiKey with your actual API key.
+
 
 ## Back-End Setup instructions
 
