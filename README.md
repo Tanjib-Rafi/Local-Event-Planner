@@ -23,10 +23,10 @@ First, clone the repository to your local machine:
 git clone https://github.com/Tanjib-Rafi/Local-Event-Planner
 ```
 
-change Directory:
+Change Directory:
 
 ```bash
-cd Local-Event-Planner
+cd Local-Event-Planner/
 ```
 
 Install dependencies::
@@ -56,7 +56,7 @@ Replace apiKey with your actual API key.
 Change Directory
 
 ```bash
-cd local_event_planner
+cd local_event_planner/
 ```
 
 Install the requirements:
@@ -74,7 +74,7 @@ python3 manage.py migrate
 Finally, run the development server:
 
 ```bash
-python manage.py runserver
+python manage.py runserver 8001
 ```
 
 ## Database Setup
