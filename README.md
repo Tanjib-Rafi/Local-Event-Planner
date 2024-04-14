@@ -12,7 +12,7 @@
 
 - **Satellite and Normal Map Views**: Offers users the option to view event locations in both satellite and normal map views with fullscreen view
 
-- **Nearby Location Search**: Enables users to search for events based on their proximity to their current location, enhancing convenience and relevance
+- **Nearby Events**: Show nearby events
 
 
 ## Front-End Setup instructions (React Js)
