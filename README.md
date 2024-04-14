@@ -6,7 +6,7 @@
 
 - **Redux State Management**: Implements Redux for efficient state management
 
-- **Search/Filter *: Supports search/filter based on event name, location and time range 
+- **Search/Filter**: Supports search/filter based on event name, location and time range 
 
 - **Django REST Framework Backend**: Django REST Framework on the backend to provide API endpoints
 
