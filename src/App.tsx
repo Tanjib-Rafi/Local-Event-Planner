@@ -5,7 +5,7 @@ import EventDetails from "./pages/EventDetails";
 import Signup from "./pages/Signup";
 import Login from "./pages/Login";
 import Dashboard from "./pages/Dashboard";
-import PrivateRoute from "./components/private_route/PriveteRoute";
+import PrivateRoute from "./components/private_route/PrivateRoute";
 import { useSelector } from 'react-redux';
 
 
