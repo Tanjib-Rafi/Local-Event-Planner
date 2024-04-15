@@ -4,6 +4,8 @@
 
 - **Restricted Access**: Only authenticated users are permitted to create events and view the Dahsboard
 
+- **Validate Date**: User cannot choose past date/time from the calender to create event
+
 - **Redux State Management**: Implements Redux for efficient state management
 
 - **Search/Filter**: Supports search/filter based on event name, location and time range 
