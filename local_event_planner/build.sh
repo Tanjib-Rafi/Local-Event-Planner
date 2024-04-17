@@ -8,4 +8,6 @@ pip install djangorestframework
 
 pip install djangorestframework-simplejwt
 
+pip install djangorestframework-corsheaders
+
 python manage.py migrate
