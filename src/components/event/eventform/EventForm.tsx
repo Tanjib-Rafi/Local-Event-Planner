@@ -108,7 +108,8 @@ const EventForm = () => {
     
             console.log('Event data:', eventData);
     
-            const response = await axios.post('http://0.0.0.0:8001/api/events/', eventData);
+            // const response = await axios.post('http://0.0.0.0:8001/api/events/', eventData);
+            const response = await axios.post('https://local-event-planner-backend.onrender.com/api/events/', eventData);
             console.log('Event added successfully:', response.data);
             notification.open({
                 message: 'Event Created',

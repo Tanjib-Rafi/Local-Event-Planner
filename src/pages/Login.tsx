@@ -18,7 +18,7 @@ const Login = () => {
   const onFinish = async (values: any) => {
     setLoading(true);
     try {
-      const response = await axios.post('http://0.0.0.0:8001/user/login/', values);
+      const response = await axios.post('https://local-event-planner-backend.onrender.com/user/login/', values);
       console.log('Login successful:', response.data);
       const { access, refresh } = response.data.tokens;
       

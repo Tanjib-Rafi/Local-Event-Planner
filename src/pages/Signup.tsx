@@ -15,7 +15,7 @@ const Signup = () => {
   const onFinish = async (values: any) => {
     try {
       setLoading(true);
-      const response = await axios.post('http://0.0.0.0:8001/user/signup/', {
+      const response = await axios.post('https://local-event-planner-backend.onrender.com/user/signup/', {
         user_name: values.username,
         email: values.email,
         password: values.password

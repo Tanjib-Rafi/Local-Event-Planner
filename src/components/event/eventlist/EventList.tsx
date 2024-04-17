@@ -31,7 +31,7 @@ const EventList = () => {
   useEffect(() => {
     const fetchEventData = async () => {
       try {
-        const response = await axios.get('http://0.0.0.0:8001/api/events/');
+        const response = await axios.get('https://local-event-planner-backend.onrender.com/api/events/');
         dispatch(updateEvents(response.data));
   
         // Log the dispatched action

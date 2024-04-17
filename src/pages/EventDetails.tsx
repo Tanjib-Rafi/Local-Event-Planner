@@ -15,11 +15,11 @@ const EventDetails = () => {
   useEffect(() => {
     const fetchEventDetails = async () => {
       try {
-        const response = await axios.get(`http://0.0.0.0:8001/api/events/${id}/`);
+        const response = await axios.get(`https://local-event-planner-backend.onrender.com/api/events/${id}/`);
         setEvent(response.data);
   
         //Fetch nearest events
-        const nearestEventsResponse = await axios.get(`http://0.0.0.0:8001/api/nearest-events/${id}/?longitude=${response.data.longitude}&latitude=${response.data.latitude}`);
+        const nearestEventsResponse = await axios.get(`https://local-event-planner-backend.onrender.com/api/nearest-events/${id}/?longitude=${response.data.longitude}&latitude=${response.data.latitude}`);
 
         setNearestEvents(nearestEventsResponse.data);
         console.log(nearestEventsResponse.data);

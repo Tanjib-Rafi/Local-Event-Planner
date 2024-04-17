@@ -19,7 +19,7 @@ const Dashboard = () => {
     const handleLogout = async () => {
         try {
             console.log(refreshToken);
-            await axios.post('http://0.0.0.0:8001/user/logout/', { refresh: refreshToken });
+            await axios.post('https://local-event-planner-backend.onrender.com/user/logout/', { refresh: refreshToken });
             dispatch(logout());
             //remove tokens from local storage
             localStorage.removeItem('accessToken');
